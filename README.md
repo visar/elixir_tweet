@@ -1,6 +1,8 @@
 # Tweet
 
-**TODO: Add description**
+**Sample Elixir application built following the PluralSight course.
+
+It sends tweets from a text file.
 
 ## Installation
 
