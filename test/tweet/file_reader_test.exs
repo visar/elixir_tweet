@@ -3,6 +3,8 @@ defmodule FileReaderTest do
     import Tweet.FileReader
     import Mock
 
+    doctest Tweet.FileReader
+
     test "Passing a file should return a string" do
         str = get_strings_to_tweet(Path.join("#{:code.priv_dir(:tweet)}", "sample.txt"))
 
